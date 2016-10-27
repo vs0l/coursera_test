@@ -1,35 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Mod 2 assignment</title>
-<style>
 * {
   box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
+  font-family: times;
 }
 
-p {
-  border: 1px solid black;
-  background-color: #AAAABB;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: italic;
-  color: black;
+h1 {
+  text-align:  center;
+  font-size: 1.75em;
 }
-.row {
-  width: 100%;
+
+section {
+  border: 1px solid black;
+  background: lightblue;
+  position: relative;
+  margin: 10px;
+}
+
+header {
+border: 1px solid black;
+text-align: center;
+font-size: 1.25em;
+padding: 2px
+width: 90px;
+position: absolute;
+right: 0px;
+}
+
+#chicken {
+  background: orange;
+}
+
+#beef {
+  background: red;
+}
+
+#sushi {
+  background: pink;
+}
+
+p{
+  padding: 20px 10px 0px 10px;
 }
 
 /*large dev.*/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+   
   }
   .col-lg-1 {
     width: 8.33%;
@@ -73,7 +89,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+  
   }
   .col-md-1 {
     width: 8.33%;
@@ -115,7 +131,7 @@ p {
   @media (max-width: 767px) {
   .col-mob-1, .col-mob-2, .col-mob-3, .col-mob-4, .col-mob-5, .col-mob-6, .col-mob-7, .col-mob-8, .col-mob-9, .col-mob-10, .col-mob-11, .col-mob-12 {
     float: left;
-    border: 1px solid green;
+    
   }
   .col-mob-1 {
     width: 8.33%;
@@ -154,19 +170,3 @@ p {
     width: 100%;
   }
 }
-
-</style>
-</head>
-<body>
-<h1 align="center">Our Menu</h1>
-
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-mob-12"><p>Choosing nutritious foods helps your health in two ways. First, a diet packed with fiber-rich fruits and vegetables, lean proteins and healthy fats helps you feel fuller on fewer calories, which is key in keeping your weight in check. </p>
-  </div>
-  <div class="col-lg-4 col-md-6 col-mob-12"><p>Choosing nutritious foods helps your health in two ways. First, a diet packed with fiber-rich fruits and vegetables, lean proteins and healthy fats helps you feel fuller on fewer calories, which is key in keeping your weight in check. </p></div>
-  <div class="col-lg-4 col-md-12 col-mob-12"><p>Choosing nutritious foods helps your health in two ways. First, a diet packed with fiber-rich fruits and vegetables, lean proteins and healthy fats helps you feel fuller on fewer calories, which is key in keeping your weight in check. </p></div>
-  
-</div>
-
-</body>
-</html>
